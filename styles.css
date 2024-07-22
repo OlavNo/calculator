@@ -2,6 +2,7 @@ body {
     display: flex;
     width: 250px;
     margin: auto;
+    transform: scale(1.5);
 
 }
 
@@ -11,7 +12,7 @@ body {
     width: 100%;
     height: auto;
     background-color: rgba(255,255,255, 0.5);
-    margin-top: 50px;
+    margin-top: 150px;
     border: solid 2px black;
     box-sizing: border-box;
     border-radius: 20px;
@@ -39,11 +40,13 @@ body {
 #resultView {
     margin: 0;
     height: 28px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #writeText {
     margin: 0;
     height: 28px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #number-buttons {
