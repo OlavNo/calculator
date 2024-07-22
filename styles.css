@@ -1,6 +1,6 @@
 body {
     display: flex;
-    width: 400px;
+    width: 250px;
     margin: auto;
 
 }
@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: auto;
     background-color: rgba(255,255,255, 0.5);
-    margin: 50px;
+    margin-top: 50px;
     border: solid 2px black;
     box-sizing: border-box;
     border-radius: 20px;
@@ -23,15 +23,27 @@ body {
 }
 
 #screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 90%;
-    height: 120px;
+    height: 100px;
     border: solid 2px black;
     margin: 5%;
     text-align: right;
-    align-items: end;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+#resultView {
+    margin: 0;
+    height: 28px;
+}
+
+#writeText {
+    margin: 0;
+    height: 28px;
 }
 
 #number-buttons {

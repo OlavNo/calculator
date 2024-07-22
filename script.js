@@ -28,14 +28,18 @@ const operators = document.querySelectorAll(".operator");
 operators.forEach((operatorKey) => {
     // and for each one we add a 'click' listener
 operatorKey.addEventListener("click", () => {
-    operator = operatorKey.id;
-    if (screenContent != "") {
+    
+    if (screenContent != "" && operator === undefined) {
         num1 = parseFloat(screenContent);
+    }
+    else if (screenContent === "" && operator !== undefined) {
+        num1 = num1;
     }
     else {
         num1 = result;
     }
 
+    operator = operatorKey.id;
     resultView.textContent = Math.round(num1*Math.pow(10, decimals))/Math.pow(10, decimals) + " " + operator;
     screenContent = "";
     writeText.textContent = screenContent;
