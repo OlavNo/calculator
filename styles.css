@@ -2,7 +2,7 @@ body {
     display: flex;
     width: 250px;
     margin: auto;
-    transform: scale(1.25);
+    
 
 }
 
@@ -16,6 +16,7 @@ body {
     border: solid 2px black;
     box-sizing: border-box;
     border-radius: 20px;
+    transform: scale(1.25);
 }
 
 .buttons {
