@@ -24,7 +24,7 @@ body {
 
 #screen {
     width: 90%;
-    height: 150px;
+    height: 120px;
     border: solid 2px black;
     margin: 5%;
     text-align: right;
@@ -35,24 +35,28 @@ body {
 }
 
 #number-buttons {
-    width: 65%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap-reverse;
     margin: 5%;
+    margin-right: 0;
 }
 
 #operator-buttons {
-    width: 35%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     margin: 5%;
+    margin-left: 0;
 }
 
 .numbers {
-    width: 33.33%;
+    width: 30.33%;
+    margin: 1%;
 }
 .operator {
     width: 100%;
+    margin: 3%;
 }
 /* CSS */
 button {
